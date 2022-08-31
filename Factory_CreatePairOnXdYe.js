@@ -1,6 +1,9 @@
 const Web3 = require("web3");
 const Factory = require("./src/abis/UniswapV2Factory.json");
 const WETH = require("./src/abis/WETH.json");
+const TokenA = require("./src/abis/ERC20Creator.json");
+const XdYe = require("./src/abis/XdYeToken.json");
+
 
 
 const createPairOnXdYeFactory = async () => {
