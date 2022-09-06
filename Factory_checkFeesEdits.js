@@ -49,3 +49,5 @@ const checkFactoryFeesEdit = async () => {
     console.log(e);
   }
 };
+
+checkFactoryFeesEdit();
