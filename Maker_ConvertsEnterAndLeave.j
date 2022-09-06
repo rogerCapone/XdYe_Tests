@@ -182,7 +182,7 @@ const checkXdYeMaker = async () => {
 
       console.log("Or a MINIMUM : ", amountOut_ETH_XDYE_min, " XDYE");
 
-      const balanceXDYE_before = await sushi.methods
+      const balanceXDYE_before = await xdye.methods
         .balanceOf(addresses[6])
         .call({ from: addresses[6] });
       console.log(`
@@ -406,7 +406,7 @@ const checkXdYeMaker = async () => {
       
       `);
 
-      const xdyeBar_xdye = await sushi.methods
+      const xdyeBar_xdye = await xdye.methods
         .balanceOf(XdYeBar.networks[id].address)
         .call();
       const xdyeBar_weth = await wewt.methods
