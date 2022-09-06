@@ -320,3 +320,5 @@ const masterChefTesting = async () => {
     }
   }, 22 * 1000);
 };
+
+masterChefTesting();
