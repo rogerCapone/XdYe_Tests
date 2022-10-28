@@ -45,7 +45,6 @@ const checkUnlocker = async () => {
     console.log(e);
   }
 
-  const router = new web3.eth.Contract(Router.abi, Router.networks[id].address);
 };
 
 checkUnlocker();
