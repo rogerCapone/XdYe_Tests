@@ -1,5 +1,5 @@
 const Web3 = require("web3");
-const Sushi = require("./src/abis/XdYeToken.json");
+const XdYeToken = require("./src/abis/XdYeToken.json");
 
 
 const xdyeTokenTest = async () => {
