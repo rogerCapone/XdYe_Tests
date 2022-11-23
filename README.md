@@ -2,7 +2,8 @@
 
 Here you will find a set of functions that will allow us to check XdYe Smart Contract consistency.
 
-More information about XdYe Testing can be found at: https://rogercapone.gitbook.io/xdye-documentation/testing-smart-contracts/testing-overview
+More information about XdYe Testing can be found at: 
+https://rogercapone.gitbook.io/xdye-documentation/testing-smart-contracts/testing-overview
 
 Testing environment we have created for testing all XdYe structure is based on:
 
